@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+:root {
+    --main-bg-color: #121212;
+    --secondary-bg-color: #444444;
+    --main-text-color: #E0E0E0;
+    --secondary-text-color: #B0B0B0;
+    --accent-color: #888888;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.floatingchat-container-wrap, .floatingchat-container-wrap-mobi {
+    bottom: 60px !important;
+}
+
+@media only screen and (min-width: 650px) {
+    .floatingchat-container-wrap, .floatingchat-container-wrap-mobi {
+        bottom: 16px !important;
+    }
+}

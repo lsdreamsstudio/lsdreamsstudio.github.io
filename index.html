@@ -1,11 +1,60 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSDreams</title>
 
-<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('lusouza42', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#794bc4',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
+    <script defer src="/components/main.js" type="module"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBDX25RKMQ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XBDX25RKMQ');
+    </script>
+
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <c-header></c-header>
+
+    <main>
+
+        <h1>Hey... Welcome!</h1>
+
+        <p>
+            <strong>LSDreams</strong> is a solo game studio by <i>Luiz Souza</i>, where every project is a dive into the strange, the surreal, and the unexpected. The name blends LS (Luiz Souza) with a wink to LSD—because games, like dreams (or the occasional trip), should take you somewhere you've never been.
+        </p>
+
+        <p>
+            Based in a quiet beach town in Brazil, LSDreams focuses on roguelikes and other genre-bending experiences that mix strategy, emotion, and a bit of chaos. Whether it’s cursed crops or card-based battles under a blood moon, each game is designed to surprise, challenge, and linger in your mind long after you stop playing.
+        </p>
+
+        <p>
+            This blog is where you'll find devlogs, experiments, and behind-the-scenes thoughts from the solo journey of turning wild ideas into playable worlds.
+        </p>
+
+        <p><strong>Thanks for stepping into the dream!</strong></p>
+        
+    </main>
+
+    <c-footer></c-footer>    
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+        kofiWidgetOverlay.draw('lusouza42', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Tip Me',
+            'floating-chat.donateButton.background-color': '#794bc4',
+            'floating-chat.donateButton.text-color': '#fff'
+        });
+    </script>
+</body>
+</html>
+
